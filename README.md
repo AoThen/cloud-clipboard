@@ -87,7 +87,7 @@ docker container run -d -p 9501:9501 ***
 
 * [chenqiyux/lan-clip](https://hub.docker.com/r/chenqiyux/lan-clip) amd64
 * [shuaigekda123/myclip](https://hub.docker.com/r/shuaigekda123/myclip) amd64/arm64
-* [jonnyan404/cloud-clipboard](https://hub.docker.com/r/jonnyan404/cloud-clipboard) amd64/arm64/armv7  -->2025年01月06日更新
+* [jonnyan404/cloud-clipboard](https://hub.docker.com/r/jonnyan404/cloud-clipboard) amd64/arm64/armv7  -->2025年04月30日更新
 * [jonnyan404/cloud-clipboard-go](https://hub.docker.com/r/jonnyan404/cloud-clipboard-go) amd64/arm64/armv7  -->go版服务端
 
 然后访问 http://127.0.0.1:9501
@@ -116,15 +116,26 @@ node main.js
 
 服务端默认会监听本机所有网卡的 IP 地址（也可以自己设定），并在终端中显示前端界面所在的网址，使用浏览器打开即可使用。
 
+### Python 版服务端
+
+基于 python3 sanic, 较少的依赖 (几十 MB 以内)  
+https://github.com/yurenchen000/cloud-clipboard/tree/py3/server-py3  
+
+同时也有个 go 版 server (包含捆绑的前端文件, 10MB 以内)  
+https://github.com/yurenchen000/cloud-clipboard/tree/golang/server-go
+
 ### GO 版服务端
 
 https://github.com/Jonnyan404/cloud-clipboard-go
 
--  ✅ homebrew 支持
--  ✅ openwrt 支持
--  ✅ docker 支持
--  ✅ 图形化UI 支持
--  ✅ 二进制 支持
+-  ✅ 多国语言
+-  ✅ Android 快捷指令
+-  🔘 iOS 快捷指令 
+-  ✅ homebrew
+-  ✅ openwrt
+-  ✅ docker
+-  ✅ UI辅助器
+-  ✅ 二进制
 
 ### C 版服务端
 
