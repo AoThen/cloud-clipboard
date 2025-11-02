@@ -128,14 +128,18 @@ https://github.com/yurenchen000/cloud-clipboard/tree/golang/server-go
 
 https://github.com/Jonnyan404/cloud-clipboard-go
 
+-  ✅ Android 服务端应用apk
+-  ✅ 支持 CF workers+pages+D1+R2 部署
 -  ✅ 多国语言
 -  ✅ Android 快捷指令
--  🔘 iOS 快捷指令 
+-  🔘 iOS 快捷指令
+-  ✅ 扫码下载 
 -  ✅ homebrew
 -  ✅ openwrt
 -  ✅ docker
 -  ✅ UI辅助器
 -  ✅ 二进制
+
 
 ### C 版服务端
 
